@@ -1,4 +1,6 @@
-public enum SchoolYear {
+package pl.school;
+
+public enum Year {
     FIRST,
     SECOND,
     THIRD,
