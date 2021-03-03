@@ -6,11 +6,9 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @SuperBuilder
 public class Student extends Human {
-    private final Clazz clazz;
 
-    public Student(String name, String surname, Clazz clazz) {
+    public Student(String name, String surname) {
         super(name, surname);
-        this.clazz = clazz;
     }
 
 }
